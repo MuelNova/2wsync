@@ -1,0 +1,12 @@
+default_dest: /mnt/d/Onedrive/NovaNo1r
+default_src: /home/nova/workspace
+exclude:
+  - node_modules
+  - wide*
+
+items:
+  - src: real_test
+    dest: /mnt/d/Onedrive/TEST
+  - src: real_test/foo/bar
+  - src: real_test/foo
+    enabled: false

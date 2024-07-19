@@ -1,0 +1,12 @@
+[Unit]
+Description=2wsync Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/nova/2wsync/
+ExecStart=/home/nova/2wsync/run.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
