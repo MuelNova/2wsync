@@ -1,6 +1,8 @@
 # 2WSYNC
 
-WSL2 和 OneDrive 的同步脚本。写着写着反正就写的依托，就发出来了。
+WSL2 和 OneDrive 的同步脚本。写着写着反正就写的依托，就发出来了。启发来源见 [博客](https://n.ova.moe/blog/2024/07/19/WSL2-利用-Robocopy-对-OneDrive-进行增量更新)
+
+![](docs/1.png)
 
 ## 配置
 
